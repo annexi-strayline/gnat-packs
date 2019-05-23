@@ -35,9 +35,13 @@
 *** Installation 
     1. (For each package in order above)
        1. Verify gpg from the related signatures in this repository
-          `$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz`
+
+          `$ gpg \-\-verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz`
+
        2. Extract the package
+
           `$ sudo xz -cd gnat-X-y.tar.xz | tar xPf -`
+
     2. Modify ~/.bashrc or equivilent:
        `
        export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
