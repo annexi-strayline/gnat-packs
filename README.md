@@ -48,7 +48,7 @@ Eventually, these packages will be added to appropriate package repositories.
 2.  Modify ~/.bashrc or equivilent:
     ```
     export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
-    export C\_INCLUDE\_PATH=/opt/gnat-X/include
-    export LD\_LIBRARY\_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
-    export LIBRARY\_PATH=$LD\_LIBRARY\_PATH
+    export C_INCLUDE_PATH=/opt/gnat-X/include
+    export LD_LIBRARY_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
+    export LIBRARY_PATH=$LD_LIBRARY_PATH
     ```
