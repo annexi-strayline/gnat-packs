@@ -1,4 +1,4 @@
-# gnat-packs - ready-build GCC/GNAT binary packages<a id="sec-1" name="sec-1"></a>
+# gnat-packs - ready-build GCC/GNAT binary packages
 
 Packages are layered in order (package 2 must be installed after
 package 1, package 3 after package 2)
@@ -18,9 +18,9 @@ These packages are fully self-contained, and do not have any other package depen
 
 Eventually, these packages will be added to appropriate package repositories.
 
-## x86\_64 Linux<a id="sec-1-1" name="sec-1-1"></a>
+## x86\_64 Linux
 
-### Builds<a id="sec-1-1-1" name="sec-1-1-1"></a>
+### Builds
 
 1.  GCC-8.3.0
 
@@ -30,19 +30,21 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-8-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-gnatcoll_core.tar.xz)
     -   [gnat-8-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-src.tar.xz)
 
-2.  Compatibility
+### Compatibility
 
-    -   Built and tested on Ubuntu-18.04 LTS (Desktop)
+-   Built and tested on Ubuntu-18.04 LTS (Desktop)
 
-3.  Installation
+### Installation
 
-    1.  (For each package in order above)
-        a. Verify gpg from the related signatures in this repository
-           \`gpg &#x2013;verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz\`
-        b. Extract the package
-           \`sudo xz -cd gnat-X-y.tar.xz | tar xPf -\`
-    2.  Modify ~/.bashrc or equivilent:
-        -   \`export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)\`
-        -   \`export C\_INCLUDE\_PATH=/opt/gnat-X/include\`
-        -   \`export LD\_LIBRARY\_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib\`
-        -   \`export LIBRARY\_PATH=$LD\_LIBRARY\_PATH\\\`
+1.  (For each package in order above)
+    1.  Verify gpg from the related signatures in this repository
+        ```$ gpg &#x2013;verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
+    2.  Extract the package
+        ```$ sudo xz -cd gnat-X-y.tar.xz | tar xPf -```
+2.  Modify ~/.bashrc or equivilent:
+    ```
+    export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
+    export C\_INCLUDE\_PATH=/opt/gnat-X/include
+    export LD\_LIBRARY\_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
+    export LIBRARY\_PATH=$LD\_LIBRARY\_PATH
+    ```
