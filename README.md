@@ -51,7 +51,7 @@ Eventually, these packages will be added to appropriate package repositories.
     
     2.  Extract the package
         
-        ```$ sudo xz -cd gnat-X-y.tar.xz | sudo tar xPf -````
+        ```$ sudo xz -cd gnat-X-y.tar.xz | sudo tar xPf -```
 
 2.  Modify ~/.bashrc or equivilent:
     ```
