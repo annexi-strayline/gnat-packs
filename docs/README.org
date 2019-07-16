@@ -43,7 +43,7 @@
     1. (For each package in order above)
        1. Verify gpg from the related signatures in this repository
 
-          ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
+          ```$ gpg \-\-verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
 
        2. Extract the package
 
