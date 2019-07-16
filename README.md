@@ -22,7 +22,15 @@ Eventually, these packages will be added to appropriate package repositories.
 
 ### Builds
 
-1.  GCC-8.3.0
+1.  GCC-9.1.0
+
+    -   [gnat-9-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-base.tar.xz)
+    -   [gnat-9-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-xmlada.tar.xz)
+    -   [gnat-9-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gprbuild.tar.xz)
+    -   [gnat-9-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gnatcoll_core.tar.xz)
+    -   [gnat-9-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-src.tar.xz)
+
+2.  GCC-8.3.0
 
     -   [gnat-8-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-base.tar.xz)
     -   [gnat-8-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-xmlada.tar.xz)
@@ -43,12 +51,11 @@ Eventually, these packages will be added to appropriate package repositories.
     
     2.  Extract the package
         
-        ```$ sudo xz -cd gnat-X-y.tar.xz | tar xPf -```
+        ```$ sudo xz -cd gnat-X-y.tar.xz | sudo tar xPf -```
 
 2.  Modify ~/.bashrc or equivilent:
     ```
     export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
-    export C_INCLUDE_PATH=/opt/gnat-X/include
-    export LD_LIBRARY_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
-    export LIBRARY_PATH=$LD_LIBRARY_PATH
+    export C\_INCLUDE\_PATH=/opt/gnat-X/include
+    export LD\_LIBRARY\_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
     ```

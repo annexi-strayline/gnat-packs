@@ -21,7 +21,14 @@
      
 ** x86_64 Linux
 *** Builds
-   
+
+**** GCC-9.1.0
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-base.tar.xz][gnat-9-base.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-xmlada.tar.xz][gnat-9-xmlada.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gprbuild.tar.xz][gnat-9-gprbuild.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gnatcoll_core.tar.xz][gnat-9-gnatcoll_core.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-src.tar.xz][gnat-9-src.tar.xz]]   
+
 **** GCC-8.3.0
      * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-base.tar.xz][gnat-8-base.tar.xz]]
      * [[https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-xmlada.tar.xz][gnat-8-xmlada.tar.xz]]
@@ -36,19 +43,18 @@
     1. (For each package in order above)
        1. Verify gpg from the related signatures in this repository
 
-          `$ gpg \-\-verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz`
+          ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
 
        2. Extract the package
 
-          `$ sudo xz -cd gnat-X-y.tar.xz | tar xPf -`
+          ```$ sudo xz -cd gnat-X-y.tar.xz | sudo tar xPf -```
 
     2. Modify ~/.bashrc or equivilent:
-       `
+       ```
        export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
        export C_INCLUDE_PATH=/opt/gnat-X/include
        export LD_LIBRARY_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
-       export LIBRARY_PATH=$LD_LIBRARY_PATH
-       `
+       ```
 
     
     
