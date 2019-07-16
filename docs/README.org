@@ -18,7 +18,7 @@
   These packages are fully self-contained, and do not have any other package dependencies
 
   Eventually, these packages will be added to appropriate package repositories.
-     
+
 ** x86_64 Linux
 *** Builds
 
@@ -56,5 +56,32 @@
        export LD_LIBRARY_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
        ```
 
-    
-    
+** x86_64 FreeBSD
+*** Builds
+
+**** GCC-9.1.0
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-base.tar.xz][gnat-9-base.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-xmlada.tar.xz][gnat-9-xmlada.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-gprbuild.tar.xz][gnat-9-gprbuild.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-gnatcoll_core.tar.xz][gnat-9-gnatcoll_core.tar.xz]]
+     * [[https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-src.tar.xz][gnat-9-src.tar.xz]]   
+
+*** Compatibility
+    * Requires FreeBSD 12.0
+
+*** Installation 
+    1. (For each package in order above)
+       1. Verify gpg from the related signatures in this repository
+
+          ```$ gpg \-\-verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
+
+       2. Extract the package as root
+
+          ```# tar zxPf gnat-X-y.tar.xz```
+
+    2. Modify ~/.profile or equivilent:
+       ```
+       export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
+       export C_INCLUDE_PATH=/usr/local/gcc-fsf-gnat/include
+       export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib
+       ```
