@@ -20,7 +20,7 @@ These packages are fully self-contained, and do not have any other package depen
 Eventually, these packages will be added to appropriate package repositories.
 
 
-## x86\_64 Linux
+## x86\_64 Linux - Ubuntu-18.04 LTS (Desktop)
 
 ### Builds
 
@@ -39,10 +39,6 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-8-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-gprbuild.tar.xz)
     -   [gnat-8-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-gnatcoll_core.tar.xz)
     -   [gnat-8-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-src.tar.xz)
-
-### Compatibility
-
--   Built and tested on Ubuntu-18.04 LTS (Desktop)
 
 ### Installation
 
@@ -63,21 +59,17 @@ Eventually, these packages will be added to appropriate package repositories.
     ```
 
 
-## x86\_64 FreeBSD
+## x86\_64 FreeBSD (12.1-RELEASE)
 
 ### Builds
 
-1.  GCC-9.1.0
+1.  GCC-9.2.0
 
-    -   [gnat-9-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-base.tar.xz)
-    -   [gnat-9-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-xmlada.tar.xz)
-    -   [gnat-9-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-gprbuild.tar.xz)
-    -   [gnat-9-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-gnatcoll_core.tar.xz)
-    -   [gnat-9-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-unknown-freebsd12.0/gnat-9-src.tar.xz)
-
-### Compatibility
-
--   Requires FreeBSD 12.0
+    -   [gnat-9.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-base.tar.xz)
+    -   [gnat-9.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-xmlada.tar.xz)
+    -   [gnat-9.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-gprbuild.tar.xz)
+    -   [gnat-9.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-gnatcoll_core.tar.xz)
+    -   [gnat-9.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-src.tar.xz)
 
 ### Installation
 
