@@ -12,7 +12,11 @@ package 1, package 3 after package 2)
     Contains AdaCore's gprbuild
 4.  **gnat-X-gnatcoll\_core.tar.xz**
     Contains AdaCore's gnatcoll-core libraries
-5.  **gnat-X-src.tar.xz**
+5.  **gnat-X-gnatcoll\_sql.tar.xz**
+    Contains AdaCore's gnatcoll-db libraries for sql
+6.  **gnat-X-gnatcoll\_sqlite.tar.xz**
+    Contains AdaCore's gnatcoll-db libraries for sqlite
+7.  **gnat-X-src.tar.xz**
     Contains the full source collection used to build the packages
 
 These packages are fully self-contained, and do not have any other package dependencies
@@ -44,7 +48,8 @@ Eventually, these packages will be added to appropriate package repositories.
 
 1.  (For each package in order above)
     1.  Verify gpg from the related signatures in this repository
-        
+
+        ```$ gpg --import pubkey.asc```
         ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
     
     2.  Extract the package
@@ -54,7 +59,6 @@ Eventually, these packages will be added to appropriate package repositories.
 2.  Modify ~/.bashrc or equivilent:
     ```
     export PATH=/opt/gnat-X/bin:$PATH (where X is the major version)
-    export C_INCLUDE_PATH=/opt/gnat-X/include
     export LD_LIBRARY_PATH=/opt/gnat-X/lib64:/opt/gnat-X/lib
     ```
 
@@ -63,19 +67,22 @@ Eventually, these packages will be added to appropriate package repositories.
 
 ### Builds
 
-1.  GCC-9.2.0
+1.  GCC-10.2.0
 
-    -   [gnat-9.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-base.tar.xz)
-    -   [gnat-9.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-xmlada.tar.xz)
-    -   [gnat-9.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-gprbuild.tar.xz)
-    -   [gnat-9.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-gnatcoll_core.tar.xz)
-    -   [gnat-9.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-9.2.0-src.tar.xz)
+    -   [gnat-10.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-base.tar.xz)
+    -   [gnat-10.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-xmlada.tar.xz)
+    -   [gnat-10.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gprbuild.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_core.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_sql.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_sqlite.tar.xz)
+    -   [gnat-10.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-src.tar.xz)
 
 ### Installation
 
 1.  (For each package in order above)
     1.  Verify gpg from the related signatures in this repository
-        
+
+        ```$ gpg --import pubkey.asc```
         ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
     
     2.  Extract the package as root
@@ -85,7 +92,6 @@ Eventually, these packages will be added to appropriate package repositories.
 2.  Modify ~/.profile or equivilent:
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
-    export C_INCLUDE_PATH=/usr/local/gcc-fsf-gnat/include
     export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib
     ```
 
