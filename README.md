@@ -49,8 +49,10 @@ Eventually, these packages will be added to appropriate package repositories.
 1.  (For each package in order above)
     1.  Verify gpg from the related signatures in this repository
 
-        ```$ gpg --import pubkey.asc```
-        ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
+        ```
+        $ gpg --import pubkey.asc
+        $ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz
+        ```
     
     2.  Extract the package
         
@@ -82,8 +84,10 @@ Eventually, these packages will be added to appropriate package repositories.
 1.  (For each package in order above)
     1.  Verify gpg from the related signatures in this repository
 
-        ```$ gpg --import pubkey.asc```
-        ```$ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz```
+        ```
+        $ gpg --import pubkey.asc
+        $ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz
+        ```
     
     2.  Extract the package as root
         
