@@ -1,4 +1,4 @@
-# gnat-packs - ready-build GCC/GNAT binary packages
+# gnat-packs - ready-built GCC/GNAT binary packages
 
 Packages are layered in order (package 2 must be installed after
 package 1, package 3 after package 2)
@@ -22,7 +22,9 @@ package 1, package 3 after package 2)
     Contains AdaCore's gnatcoll-db libraries for sqlite
 9.  **gnat-X-gnatcoll\_gdb.tar.xz**
     Contains a complementary build of GDB
-10. **gnat-X-src.tar.xz**
+10. **gnat-X-elpa_ada_mode.tar.xz**
+    Contains a build of the Emacs ELPA Ada Mode binaries
+11. **gnat-X-src.tar.xz**
     Contains the full source collection used to build the packages
 
 These packages are fully self-contained, and do not have any other package dependencies
@@ -84,19 +86,23 @@ Eventually, these packages will be added to appropriate package repositories.
     ```
 
 
-## x86\_64 FreeBSD (12.1-RELEASE)
+## x86\_64 FreeBSD (12.2-RELEASE)
 
 ### Builds
 
 1.  GCC-10.2.0
 
-    -   [gnat-10.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-base.tar.xz)
-    -   [gnat-10.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-xmlada.tar.xz)
-    -   [gnat-10.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gprbuild.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_core.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_sql.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-gnatcoll_sqlite.tar.xz)
-    -   [gnat-10.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.1/gnat-10.2.0-src.tar.xz)
+    -   [gnat-10.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-base.tar.xz)
+    -   [gnat-10.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-xmlada.tar.xz)
+    -   [gnat-10.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gprbuild.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gnatcoll_core.tar.xz)
+     -  [gnat-10.2.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gnatcoll_iconv.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_xref.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gnatcoll_xref.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gnatcoll_sql.tar.xz)
+    -   [gnat-10.2.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-gnatcoll_sqlite.tar.xz)
+    -   [gnat-10.2.0-elpa_ada_mode.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-elpa_ada_mode.tar.xz)
+    -   [gnat-10.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd12.2/gnat-10.2.0-src.tar.xz)
+
 
 ### Installation
 
