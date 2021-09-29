@@ -100,7 +100,7 @@ Eventually, these packages will be added to appropriate package repositories.
 
     -   [gnat-10.3.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-base.tar.xz)
     -   [gnat-10.3.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-xmlada.tar.xz)
-    -   [gnat-10.3.0-gpr.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-gprbuild.tar.xz)
+    -   [gnat-10.3.0-gpr.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-gpr.tar.xz)
     -   [gnat-10.3.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-gnatcoll_core.tar.xz)
     -   [gnat-10.3.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-gnatcoll_iconv.tar.xz)
     -   [gnat-10.3.0-gnatcoll\_xref.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-fsf-freebsd13.0/gnat-10.3.0-gnatcoll_xref.tar.xz)
