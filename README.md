@@ -40,6 +40,14 @@ Eventually, these packages will be added to appropriate package repositories.
 1.  GCC-10.3.0
 
     -   [gnat-10.3.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-base.tar.xz)
+    -   [gnat-10.3.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gpr.tar.xz)
+    -   [gnat-10.3.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_core.tar.xz)
+    -   [gnat-10.3.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_iconv.tar.xz)
+    -   [gnat-10.3.0-gnatcoll\_xref.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_xref.tar.xz)
+    -   [gnat-10.3.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_sql.tar.xz)
+    -   [gnat-10.3.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_sqlite.tar.xz)
+    -   [gnat-10.3.0-gdb.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gdb.tar.xz)
+    -   [gnat-10.3.0-elpa_ada_mode.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-elpa_ada_mode.tar.xz)
     -   [gnat-10.3.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-src.tar.xz)
 
 2.  GCC-10.2.0
