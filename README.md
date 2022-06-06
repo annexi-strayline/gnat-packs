@@ -14,11 +14,11 @@ package 1, package 3 after package 2)
     Contains AdaCore's gnatcoll-core libraries
 5.  **gnat-X-gnatcoll\_iconv.tar.xz**
     Contains AdaCore's gnatcoll-bindings for iconv
-7.  **gnat-X-gnatcoll\_sql.tar.xz**
+6.  **gnat-X-gnatcoll\_sql.tar.xz**
     Contains AdaCore's gnatcoll-db libraries for sql
-8.  **gnat-X-gnatcoll\_sqlite.tar.xz**
+7.  **gnat-X-gnatcoll\_sqlite.tar.xz**
     Contains AdaCore's gnatcoll-db libraries for sqlite
-6.  **gnat-X-gnatcoll\_xref.tar.xz**
+8.  **gnat-X-gnatcoll\_xref.tar.xz**
     Contains AdaCore's gnatcoll-db for xref
 
 9.  **gnat-X-gnatcoll\_gdb.tar.xz**
@@ -40,6 +40,7 @@ Eventually, these packages will be added to appropriate package repositories.
 1.  GCC-10.3.0
 
     -   [gnat-10.3.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-base.tar.xz)
+    -   [gnat-10.3.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-xmlada.tar.xz)
     -   [gnat-10.3.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gpr.tar.xz)
     -   [gnat-10.3.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_core.tar.xz)
     -   [gnat-10.3.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gnatcoll_iconv.tar.xz)
