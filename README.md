@@ -154,3 +154,42 @@ Eventually, these packages will be added to appropriate package repositories.
     export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$LD_LIBRARY_PATH
     ```
 
+## x86\_64 MacOS
+
+### Builds
+
+1.  GCC-10.3.0 (MacOS/Darwin 21.5.0)
+
+    -   [gnat-10.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-base.tar.bz2)
+    -   [gnat-10.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-xmlada.tar.bz2)
+    -   [gnat-10.3.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gpr.tar.bz2)
+    -   [gnat-10.3.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_core.tar.bz2)
+    -   [gnat-10.3.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_iconv.tar.bz2)
+    -   [gnat-10.3.0-gnatcoll\_xref.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_xref.tar.bz2)
+    -   [gnat-10.3.0-gnatcoll\_sql.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_sql.tar.bz2)
+    -   [gnat-10.3.0-gnatcoll\_sqlite.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_sqlite.tar.bz2)
+    -   [gnat-10.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-elpa_ada_mode.tar.bz2)
+    -   [gnat-10.3.0-gdb.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gdb.tar.bz2)
+    -   [gnat-10.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-src.tar.bz2)
+
+
+### Installation
+
+1.  (For each package in order above)
+    1.  Verify gpg from the related signatures in this repository
+
+        ```
+        $ gpg --import pubkey.asc
+        $ gpg --verify gnat-X-y.tar.bz2.sig gnat-X-y.tar.bz2
+        ```
+    
+    2.  Extract the package as root
+        
+        ```# tar zxPf gnat-X-y.tar.bz2```
+
+2.  Modify ~/.profile or equivilent:
+    ```
+    export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
+    export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$LD_LIBRARY_PATH
+    ```
+
