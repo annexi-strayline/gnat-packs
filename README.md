@@ -37,7 +37,21 @@ Eventually, these packages will be added to appropriate package repositories.
 
 ### Builds
 
-1.  GCC-10.3.0
+2.  GCC-11.3.0
+
+    -   [gnat-11.3.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-base.tar.xz)
+    -   [gnat-11.3.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-xmlada.tar.xz)
+    -   [gnat-11.3.0-gpr.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gpr.tar.xz)
+    -   [gnat-11.3.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gnatcoll_core.tar.xz)
+    -   [gnat-11.3.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gnatcoll_iconv.tar.xz)
+    -   [gnat-11.3.0-gnatcoll\_xref.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gnatcoll_xref.tar.xz)
+    -   [gnat-11.3.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gnatcoll_sql.tar.xz)
+    -   [gnat-11.3.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gnatcoll_sqlite.tar.xz)
+    -   [gnat-11.3.0-gdb.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-gdb.tar.xz)
+    -   [gnat-11.3.0-elpa_ada_mode.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-elpa_ada_mode.tar.xz)
+    -   [gnat-11.3.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-11.3.0-src.tar.xz)
+
+2.  GCC-10.3.0
 
     -   [gnat-10.3.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-base.tar.xz)
     -   [gnat-10.3.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-xmlada.tar.xz)
@@ -50,35 +64,6 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-10.3.0-gdb.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-gdb.tar.xz)
     -   [gnat-10.3.0-elpa_ada_mode.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-elpa_ada_mode.tar.xz)
     -   [gnat-10.3.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.3.0-src.tar.xz)
-
-2.  GCC-10.2.0
-
-    -   [gnat-10.2.0-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-base.tar.xz)
-    -   [gnat-10.2.0-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-xmlada.tar.xz)
-    -   [gnat-10.2.0-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gprbuild.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gnatcoll_core.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_iconv.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gnatcoll_iconv.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_xref.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gnatcoll_xref.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_sql.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gnatcoll_sql.tar.xz)
-    -   [gnat-10.2.0-gnatcoll\_sqlite.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gnatcoll_sqlite.tar.xz)
-    -   [gnat-10.2.0-gdb.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-gdb.tar.xz)
-    -   [gnat-10.2.0-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-10.2.0-src.tar.xz)
-
-3.  GCC-9.1.0
-
-    -   [gnat-9-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-base.tar.xz)
-    -   [gnat-9-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-xmlada.tar.xz)
-    -   [gnat-9-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gprbuild.tar.xz)
-    -   [gnat-9-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-gnatcoll_core.tar.xz)
-    -   [gnat-9-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-9-src.tar.xz)
-
-4.  GCC-8.3.0
-
-    -   [gnat-8-base.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-base.tar.xz)
-    -   [gnat-8-xmlada.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-xmlada.tar.xz)
-    -   [gnat-8-gprbuild.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-gprbuild.tar.xz)
-    -   [gnat-8-gnatcoll\_core.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-gnatcoll_core.tar.xz)
-    -   [gnat-8-src.tar.xz](https://gnat-packs.annexi-strayline.com/x86_64-linux-gnu/gnat-8-src.tar.xz)
 
 ### Installation
 
@@ -98,6 +83,13 @@ Eventually, these packages will be added to appropriate package repositories.
     ```
     export PATH=/opt/gcc-fsf-gnat/bin:$PATH
     export LD_LIBRARY_PATH=/opt/gcc-fsf-gnat/lib64:/opt/gcc-fsf-gnat/lib
+    ```
+
+    Optionally you may want to set LD_RUN_PATH to the same value as LD_LIBRARY_PATH to ensure that executables built with the compiler do not require the same library path to be specified when run.
+
+    For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to LD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
+    ```
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(gcc --print-file-name adalib)
     ```
 
 
@@ -149,9 +141,17 @@ Eventually, these packages will be added to appropriate package repositories.
         ```# tar zxPf gnat-X-y.tar.xz```
 
 2.  Modify ~/.profile or equivilent:
+
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$LD_LIBRARY_PATH
+    ```
+
+    Optionally you may want to set LD_RUN_PATH to the same value as LD_LIBRARY_PATH to ensure that executables built with the compiler do not require the same library path to be specified when run.
+
+    For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to LD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
+    ```
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(gcc --print-file-name adalib)
     ```
 
 ## x86\_64 MacOS
@@ -190,6 +190,10 @@ Eventually, these packages will be added to appropriate package repositories.
 2.  Modify ~/.profile or equivilent:
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
-    export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$LD_LIBRARY_PATH
+    export DYLD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$DYLD_LIBRARY_PATH
     ```
 
+    For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to LD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
+    ```
+    export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$(gcc --print-file-name adalib)
+    ```
