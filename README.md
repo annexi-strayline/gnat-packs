@@ -190,7 +190,8 @@ Eventually, these packages will be added to appropriate package repositories.
 2.  Modify ~/.profile or equivilent:
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
-    export DYLD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$DYLD_LIBRARY_PATH
+    export LIBRARY_PATH="$LIBRARY_PATH:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib"
+    export DYLD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-apple-darwin21.5.0/10.3.0/adalib:$DYLD_LIBRARY_PATH
     ```
 
     For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to LD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
