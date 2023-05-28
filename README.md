@@ -79,7 +79,7 @@ Eventually, these packages will be added to appropriate package repositories.
         
         ```$ xz -cd gnat-X-y.tar.xz | sudo tar xP```
 
-2.  Modify ~/.bashrc or equivilent:
+2.  Modify ~/.bashrc or equivalent:
     ```
     export PATH=/opt/gcc-fsf-gnat/bin:$PATH
     export LD_LIBRARY_PATH=/opt/gcc-fsf-gnat/lib64:/opt/gcc-fsf-gnat/lib
@@ -140,7 +140,7 @@ Eventually, these packages will be added to appropriate package repositories.
         
         ```# tar zxPf gnat-X-y.tar.xz```
 
-2.  Modify ~/.profile or equivilent:
+2.  Modify ~/.profile or equivalent:
 
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
@@ -154,11 +154,24 @@ Eventually, these packages will be added to appropriate package repositories.
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(gcc --print-file-name adalib)
     ```
 
-## x86\_64 MacOS
+## MacOS
 
 ### Builds
 
-1.  GCC-11.3.0 (MacOS/Darwin 21.6.0)
+1.  GCC-11.3.0 (aarch64 MacOS Ventura 13.4/Darwin 22.5.0)
+
+    -   [gnat-11.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-base.tar.bz2)
+    -   [gnat-11.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-xmlada.tar.bz2)
+    -   [gnat-11.3.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gpr.tar.bz2)
+    -   [gnat-11.3.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gnatcoll_core.tar.bz2)
+    -   [gnat-11.3.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gnatcoll_iconv.tar.bz2)
+    -   [gnat-11.3.0-gnatcoll\_xref.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gnatcoll_xref.tar.bz2)
+    -   [gnat-11.3.0-gnatcoll\_sql.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gnatcoll_sql.tar.bz2)
+    -   [gnat-11.3.0-gnatcoll\_sqlite.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-gnatcoll_sqlite.tar.bz2)
+    -   [gnat-11.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-elpa_ada_mode.tar.bz2)
+    -   [gnat-11.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-src.tar.bz2)
+
+1.  GCC-11.3.0 (x86_64 MacOS/Darwin 21.6.0)
 
     -   [gnat-11.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-base.tar.bz2)
     -   [gnat-11.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-xmlada.tar.bz2)
@@ -171,20 +184,6 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-11.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-elpa_ada_mode.tar.bz2)
     -   [gnat-11.3.0-gdb.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-gdb.tar.bz2)
     -   [gnat-11.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-src.tar.bz2)
-
-2.  GCC-10.3.0 (MacOS/Darwin 21.5.0)
-
-    -   [gnat-10.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-base.tar.bz2)
-    -   [gnat-10.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-xmlada.tar.bz2)
-    -   [gnat-10.3.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gpr.tar.bz2)
-    -   [gnat-10.3.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_core.tar.bz2)
-    -   [gnat-10.3.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_iconv.tar.bz2)
-    -   [gnat-10.3.0-gnatcoll\_xref.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_xref.tar.bz2)
-    -   [gnat-10.3.0-gnatcoll\_sql.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_sql.tar.bz2)
-    -   [gnat-10.3.0-gnatcoll\_sqlite.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gnatcoll_sqlite.tar.bz2)
-    -   [gnat-10.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-elpa_ada_mode.tar.bz2)
-    -   [gnat-10.3.0-gdb.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-gdb.tar.bz2)
-    -   [gnat-10.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.5.0/gnat-10.3.0-src.tar.bz2)
 
 
 ### Installation
@@ -201,13 +200,23 @@ Eventually, these packages will be added to appropriate package repositories.
         
         ```# tar zxPf gnat-X-y.tar.bz2```
 
-2.  Modify ~/.profile or equivilent:
+2.  Modify ~/.profile or equivalent:
+    
+    
+
+    ### For Apple Silicon (aarch64)
+    Apple silicon builds have moved to use '/opt' as the root.
+     ```
+    export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
+    export DYLD_LIBRARY_PATH=/opt/gcc-fsf-gnat/lib:$DYLD_LIBRARY_PATH
+    ```
+    ### For x86
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
-    export DYLD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$DYLD_LIBRARY_PATH
+    export DYLD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:$DYLD_LIBRARY_PATH
     ```
 
-    For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to LD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
+    For cases where the Ada runtime is to be linked dynamically, you will also need to add the path to the Ada runtime to DYLD_LIBRARY_PATH (and optionally LD_RUN_PATH). That path can be provided by GCC directly:
     ```
     export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$(gcc --print-file-name adalib)
     ```
