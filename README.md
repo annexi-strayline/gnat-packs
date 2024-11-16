@@ -80,14 +80,14 @@ Eventually, these packages will be added to appropriate package repositories.
 
 1.  GCC-14.2.0 (aarch64 MacOS Sequoia 15.1/Darwin 24.1.0)
 
-    -   [gnat-14.2.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-base.tar.bz2)
-    -   [gnat-14.2.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-xmlada.tar.bz2)
-    -   [gnat-14.2.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gpr.tar.bz2)
-    -   [gnat-14.2.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_core.tar.bz2)
-    -   [gnat-14.2.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_iconv.tar.bz2)
-    -   [gnat-14.2.0-gnatcoll\_db.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_db.tar.bz2)
-    -   [gnat-14.2.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-elpa_ada_mode.tar.bz2)
-    -   [gnat-14.2.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-src.tar.bz2)
+    -   [gnat-14.2.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-base.tar.bz2)
+    -   [gnat-14.2.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-xmlada.tar.bz2)
+    -   [gnat-14.2.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-gpr.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-gnatcoll_core.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-gnatcoll_iconv.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_db.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-gnatcoll_db.tar.bz2)
+    -   [gnat-14.2.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-elpa_ada_mode.tar.bz2)
+    -   [gnat-14.2.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin24.1.0/gnat-14.2.0-src.tar.bz2)
 
 2.  GCC-12.3.0 (aarch64 MacOS Sonoma 14.2.1/Darwin 23.2.0)
 
