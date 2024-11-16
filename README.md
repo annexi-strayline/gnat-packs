@@ -14,18 +14,13 @@ package 1, package 3 after package 2)
     Contains AdaCore's gnatcoll-core libraries
 5.  **gnat-X-gnatcoll\_iconv.tar.xz**
     Contains AdaCore's gnatcoll-bindings for iconv
-6.  **gnat-X-gnatcoll\_sql.tar.xz**
-    Contains AdaCore's gnatcoll-db libraries for sql
-7.  **gnat-X-gnatcoll\_sqlite.tar.xz**
-    Contains AdaCore's gnatcoll-db libraries for sqlite
-8.  **gnat-X-gnatcoll\_xref.tar.xz**
-    Contains AdaCore's gnatcoll-db for xref
-
-9.  **gnat-X-gdb.tar.xz**
+6.  **gnat-X-gnatcoll\_db.tar.xz**
+    Contains AdaCore's gnatcoll-db libraries for sql, sqlite, and xref
+7.  **gnat-X-gdb.tar.xz**
     Contains a complementary build of GDB
-10. **gnat-X-elpa_ada_mode.tar.xz**
+8.  **gnat-X-elpa_ada_mode.tar.xz**
     Contains a build of the Emacs ELPA Ada Mode binaries
-11. **gnat-X-src.tar.xz**
+9.   **gnat-X-src.tar.xz**
     Contains the full source collection used to build the packages
 
 These packages are fully self-contained, and do not have any other package dependencies
@@ -159,7 +154,18 @@ Eventually, these packages will be added to appropriate package repositories.
 
 ### Builds
 
-1.  GCC-12.3.0 (aarch64 MacOS Sonoma 14.2.1/Darwin 23.2.0)
+1.  GCC-14.2.0 (aarch64 MacOS Sequoia 15.1/Darwin 24.1.0)
+
+    -   [gnat-14.2.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-base.tar.bz2)
+    -   [gnat-14.2.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-xmlada.tar.bz2)
+    -   [gnat-14.2.0-gpr.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gpr.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_core.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_core.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_iconv.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_iconv.tar.bz2)
+    -   [gnat-14.2.0-gnatcoll\_db.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-gnatcoll_db.tar.bz2)
+    -   [gnat-14.2.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-elpa_ada_mode.tar.bz2)
+    -   [gnat-14.2.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-14.2.0-src.tar.bz2)
+
+2.  GCC-12.3.0 (aarch64 MacOS Sonoma 14.2.1/Darwin 23.2.0)
 
     -   [gnat-12.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-12.3.0-base.tar.bz2)
     -   [gnat-12.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-12.3.0-xmlada.tar.bz2)
@@ -172,7 +178,7 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-12.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-12.3.0-elpa_ada_mode.tar.bz2)
     -   [gnat-12.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin23.2.0/gnat-12.3.0-src.tar.bz2)
 
-2.  GCC-11.3.0 (aarch64 MacOS Ventura 13.4/Darwin 22.5.0)
+3.  GCC-11.3.0 (aarch64 MacOS Ventura 13.4/Darwin 22.5.0)
 
     -   [gnat-11.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-base.tar.bz2)
     -   [gnat-11.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-xmlada.tar.bz2)
@@ -185,7 +191,7 @@ Eventually, these packages will be added to appropriate package repositories.
     -   [gnat-11.3.0-elpa_ada_mode.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-elpa_ada_mode.tar.bz2)
     -   [gnat-11.3.0-src.tar.bz2](https://gnat-packs.annexi-strayline.com/aarch64-apple-darwin22.5.0/gnat-11.3.0-src.tar.bz2)
 
-3.  GCC-11.3.0 (x86_64 MacOS/Darwin 21.6.0)
+4.  GCC-11.3.0 (x86_64 MacOS/Darwin 21.6.0)
 
     -   [gnat-11.3.0-base.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-base.tar.bz2)
     -   [gnat-11.3.0-xmlada.tar.bz2](https://gnat-packs.annexi-strayline.com/x86_64-apple-darwin21.6.0/gnat-11.3.0-xmlada.tar.bz2)
