@@ -3,24 +3,17 @@
 Packages are layered in order (package 2 must be installed after
 package 1, package 3 after package 2)
 
-1.  **gnat-X-base.tar.xz**
-    Contains FSF GCC with C,C++, and Ada, including the full GPL
-    runtime exception
-2.  **gnat-X-xmlada.tar.xz**
-    Contains AdaCore's xmlada library
-3.  **gnat-X-gpr.tar.xz**
-    Contains AdaCore's gprbuild
-4.  **gnat-X-gnatcoll\_core.tar.xz**
-    Contains AdaCore's gnatcoll-core libraries
-5.  **gnat-X-gnatcoll\_iconv.tar.xz**
-    Contains AdaCore's gnatcoll-bindings for iconv
-6.  **gnat-X-gnatcoll\_db.tar.xz**
-    Contains AdaCore's gnatcoll-db libraries for sql, sqlite, and xref
-7.  **gnat-X-gdb.tar.xz**
-    Contains a complementary build of GDB
-8.  **gnat-X-elpa_ada_mode.tar.xz**
-    Contains a build of the Emacs ELPA Ada Mode binaries
-9.   **gnat-X-src.tar.xz**
+1.  **fsf-gnat-X.tar.xz**
+    Contains:
+    - FSF GCC with C,C++, and Ada, including the full GPL runtime exception
+    - GDB (except on MacOS)
+    - gprbuild
+    - libgpr
+    - xmlada
+    - gnatcoll core, iconv, db (sql, sqlite, xref)
+    - EMACS ELPA Ada_mode 7.1.4 binary
+    - AURA Reference Implementation
+2.  **gnat-X-src.tar.xz**
     Contains the full source collection used to build the packages
 
 These packages are fully self-contained, and do not have any other package dependencies
@@ -53,18 +46,18 @@ Eventually, these packages will be added to appropriate package repositories.
 
         ```
         $ gpg --import pubkey.asc
-        $ gpg --verify gnat-X-y.tar.xz.sig gnat-X-y.tar.xz
+        $ gpg --verify fsf-gnat-X-y.tar.xz.sig gnat-X-y.tar.xz
         ```
     
     2.  Extract the package as root
         
-        ```# tar zxPf gnat-X-y.tar.xz```
+        ```# tar zxPf fsf-gnat-X-y.tar.xz```
 
 2.  Modify ~/.profile or equivalent:
 
     ```
     export PATH=/usr/local/gcc-fsf-gnat/bin:$PATH
-    export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:/usr/local/gcc-fsf-gnat/lib/gcc/x86_64-fsf-freebsd13.0/10.3.0/adalib:$LD_LIBRARY_PATH
+    export LD_LIBRARY_PATH=/usr/local/gcc-fsf-gnat/lib:$(gcc --print-file-name adalib):$LD_LIBRARY_PATH
     ```
 
     Optionally you may want to set LD_RUN_PATH to the same value as LD_LIBRARY_PATH to ensure that executables built with the compiler do not require the same library path to be specified when run.
